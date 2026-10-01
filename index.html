@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#083a44">
+<title>DocFlow — 도금·표면처리 사업장 환경 서류 자동 작성</title>
+<meta name="description" content="대기배출원조사표, 반기별 자가측정 결과보고서, 측정기록부 같은 환경 서류를 한 번 입력한 데이터로 원본 서식 그대로 작성하고 제출 전에 빠진 곳을 알려 주는 웹 서비스입니다.">
+<link rel="canonical" href="https://wintercat8.github.io/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="DocFlow">
+<meta property="og:title" content="DocFlow — 도금·표면처리 사업장 환경 서류 자동 작성">
+<meta property="og:description" content="대기배출원조사표, 반기별 자가측정 결과보고서, 측정기록부 같은 환경 서류를 한 번 입력한 데이터로 원본 서식 그대로 작성하고 제출 전에 빠진 곳을 알려 주는 웹 서비스입니다.">
+<meta property="og:url" content="https://wintercat8.github.io/">
+<meta property="og:image" content="https://wintercat8.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="DocFlow — 도금·표면처리 사업장 환경 서류 자동 작성">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://wintercat8.github.io/og-image.png">
+
+<link rel="preload" as="font" type="font/woff2" href="fonts/Pretendard-Regular.subset.woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "DocFlow", "url": "https://wintercat8.github.io/", "inLanguage": "ko"}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 건너뛰기</a>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">
+      <svg class="logo" viewBox="0 0 48 48" role="img" aria-label="DocFlow 로고">
+        <defs>
+          <linearGradient id="dfg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b5560"/><stop offset="1" stop-color="#14808f"/></linearGradient>
+          <linearGradient id="dfb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ecc972"/><stop offset="1" stop-color="#c9973b"/></linearGradient>
+        </defs>
+        <rect width="48" height="48" rx="11" fill="url(#dfg)"/>
+        <path d="M14 9h14l7 7v23a2 2 0 0 1-2 2H14a2 2 0 0 1-2-2V11a2 2 0 0 1 2-2z" fill="#fff"/>
+        <path d="M28 9v5a2 2 0 0 0 2 2h5z" fill="#bcd9de"/>
+        <rect x="17" y="21" width="14" height="3" rx="1.5" fill="url(#dfb)"/>
+        <rect x="17" y="27" width="14" height="3" rx="1.5" fill="#9fc3ca"/>
+        <rect x="17" y="33" width="10" height="3" rx="1.5" fill="#0e6472"/>
+      </svg>
+      <span>DocFlow</span>
+    </a>
+    <nav aria-label="주 메뉴">
+      <a href="index.html" aria-current="page">홈</a>
+      <a href="features.html">기능</a>
+      <a href="guide-air-survey.html">대기배출원조사표 작성법</a>
+      <a href="guide-half-year-report.html">반기 보고서 작성법</a>
+      <a href="guide-record-keeping.html">데이터 정리법</a>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="wrap">
+  <h1>환경 서류, 한 번 입력하고 서식은 자동으로</h1>
+  <p class="lead">도금·표면처리 사업장은 대기·수질·폐기물·화학물질 서류를 해마다 여러 번 냅니다. 같은 숫자를 서식마다 다시 옮겨 적는 일을 줄이는 서비스를 만들고 있습니다.</p>
+
+  <div class="notice"><strong>현재 소규모 테스트 중입니다.</strong> 정식 공개 전이라 일반 가입은 받지 않습니다. 관심이 있으시면 아래 문의로 알려 주세요. 문의: 준비 중입니다.</div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>규제 캘린더</h3>
+      <p>사업장 종별과 취급 물질에 맞는 제출 항목만 골라 D-day로 보여 줍니다. 근거 법령과 제출처도 함께 적어 둡니다.</p>
+    </div>
+    <div class="card">
+      <h3>원본 배치 그대로 인쇄</h3>
+      <p>대기배출원조사표, 반기별 자가측정 결과보고서, 대기 측정기록부를 기관 양식의 칸 구성 그대로 출력합니다.</p>
+    </div>
+    <div class="card">
+      <h3>제출 전 확인</h3>
+      <p>빠진 칸, 서식 규칙과 어긋난 값, 허용기준 초과를 인쇄 전에 짚어 줍니다.</p>
+    </div>
+  </div>
+
+  <h2>이런 서류를 다룹니다</h2>
+  <ul>
+    <li><a href="guide-air-survey.html">소규모사업장(4·5종) 대기배출원조사표</a> — 조사기준년도는 전년도, 1번 기본정보와 2-1~2-6 운영현황</li>
+    <li><a href="guide-half-year-report.html">반기별 자가측정 결과보고서</a> — 배출구별 측정 결과와 첨부 표</li>
+    <li>대기 측정기록부(굴뚝용) — 반기 보고서의 붙임 자료</li>
+    <li>화학물질 배출량조사, 폐기물 처리실적, 방지시설 운영일지 등의 <strong>기초자료 표</strong></li>
+  </ul>
+
+  <h2>먼저 읽어 보세요</h2>
+  <p>서비스와 상관없이 도움이 되도록, 작성 요령을 정리한 글을 공개합니다.</p>
+  <p>
+    <a class="btn" href="guide-air-survey.html">대기배출원조사표 작성법</a>
+    <a class="btn ghost" href="guide-half-year-report.html">반기 보고서 작성법</a>
+    <a class="btn ghost" href="guide-record-keeping.html">데이터 정리법</a>
+  </p>
+
+  <h2>정직하게 말씀드리면</h2>
+  <ul>
+    <li>서류의 <strong>최종 확인과 제출은 사람이</strong> 합니다. 이 서비스는 제출 직전까지를 돕습니다.</li>
+    <li>기한과 주기는 초기값이며 법령 개정·관할 기관 안내에 따라 달라질 수 있어 근거와 함께 확인하도록 표시합니다.</li>
+    <li>스캔한 PDF의 글자는 자동으로 읽지 않습니다. 잘못 읽은 숫자가 서류에 들어가는 것을 피하기 위해서입니다.</li>
+  </ul>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <p>DocFlow — 도금·표면처리 사업장 환경 서류 자동 작성</p>
+    <p>문의: 준비 중입니다. · <a href="privacy.html">개인정보처리방침</a> · 최종 수정 2026-09-30</p>
+    <p class="fine">이 사이트의 글은 공식 안내문을 요약한 참고 자료입니다. 제출 전에는 해당 연도의 공식 안내문과 관할 기관 안내를 반드시 확인하세요.</p>
+  </div>
+</footer>
+</body>
+</html>

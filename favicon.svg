@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="DocFlow">
+  <defs>
+    <linearGradient id="dfg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b5560"/><stop offset="1" stop-color="#14808f"/></linearGradient>
+    <linearGradient id="dfb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ecc972"/><stop offset="1" stop-color="#c9973b"/></linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="11" fill="url(#dfg)"/>
+  <path d="M14 9h14l7 7v23a2 2 0 0 1-2 2H14a2 2 0 0 1-2-2V11a2 2 0 0 1 2-2z" fill="#fff"/>
+  <path d="M28 9v5a2 2 0 0 0 2 2h5z" fill="#bcd9de"/>
+  <rect x="17" y="21" width="14" height="3" rx="1.5" fill="url(#dfb)"/>
+  <rect x="17" y="27" width="14" height="3" rx="1.5" fill="#9fc3ca"/>
+  <rect x="17" y="33" width="10" height="3" rx="1.5" fill="#0e6472"/>
+</svg>
